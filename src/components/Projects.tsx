@@ -12,6 +12,15 @@ const projects = [
     live: '#',
   },
   {
+  title: 'AI-Powered PPT Study Assistant',
+  description: 'Streamlit-based tool that extracts and simplifies PPT content using Gemini AI, generates study notes and quizzes.',
+  image: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=800', // You can replace with your actual screenshot link
+  technologies: ['Python', 'Streamlit', 'Gemini API', 'FPDF', 'python-pptx'],
+  github: 'https://github.com/NehaKankala/ppt-study-assistant',
+  live: 'https://ppt-study-assistant.onrender.com/',  // Add live deployment URL if available
+},
+
+  {
     title: 'Online Service Provider Website',
     description: 'Connects users with service professionals. Features login, email alerts, payments & map tracking.',
     image: '/osp.png',
@@ -19,6 +28,14 @@ const projects = [
     github: 'https://github.com/NehaKankala',
     live: 'https://onlineserviceproviderr.netlify.app/',
   },
+  {
+  title: 'Tech For Girls Registration Portal',
+  description: 'Modern web app for registering participants with WhatsApp sharing validation, screenshot upload, and auto-Google Sheet integration using Google Apps Script.',
+  image: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
+  technologies: ['HTML', 'CSS', 'JavaScript', 'Google Apps Script', 'Google Sheets API'],
+  github: 'https://github.com/NehaKankala/TechForGirls',  // replace if needed
+  live: 'http://localhost:8081',  // or your deployed link
+},
   {
     title: 'Machine Learning Models',
     description: 'Projects on classification, regression, and clustering using real datasets and visualizations.',
